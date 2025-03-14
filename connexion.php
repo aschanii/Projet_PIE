@@ -2,7 +2,7 @@
 $host='localhost';
 $dbname='students_isgi_1';
 $username='root';
-$password='anaskratos123';
+$password='';
 
 try{
     $connexion= new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username,$password);
