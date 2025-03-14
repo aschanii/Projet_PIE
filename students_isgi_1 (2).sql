@@ -66,8 +66,9 @@ INSERT INTO `classe1` (`id`, `username`, `password`, `role`) VALUES
 (22, 'MENDOUBI', '$2y$12$kuLF3EuE43U85TwPVJ31PODaHK5ZAEpbfNqqYkkHITORa/txO4xTa', 'student'),
 (23, 'FAHIMI', '$2y$12$zeqpjZzZsinayvMbpnYaFOhGrJefH1ba7xqSEC/8ZXI4pYRBidxFq', 'student'),
 (24, 'AHMED', '$2y$12$zBXwcqUT8ykkwg.eDPJEhuhgpyQgf67O730/nuzrkNoUQSUUdFE2i', 'student'),
-(28, 'lagrighi', '$2y$12$xuAykAIfA/6uMbjgtV3OteTa2kzZBjGJHe5Uwpqq/8jjJ2oybXiH.', 'professor');
+(28, 'laghrighi', '$2y$12$xuAykAIfA/6uMbjgtV3OteTa2kzZBjGJHe5Uwpqq/8jjJ2oybXiH.', 'professor');
 
+UPDATE `classe1` set  username ='laghrighi' where id =28 ;
 -- --------------------------------------------------------
 
 --
