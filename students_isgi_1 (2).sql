@@ -7,6 +7,9 @@
 -- Version du serveur : 8.0.40
 -- Version de PHP : 8.4.4
 
+CREATE database students_isgi_1 ;
+use students_isgi_1 ;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
